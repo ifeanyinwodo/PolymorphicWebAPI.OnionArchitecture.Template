@@ -66,9 +66,9 @@ This whiteapp contains the following features.
 
 ### Step 1: Open Teminal/CLI/Command prompt and execute the line below
 
-    <p>dotnet new -i PolymorphicWebAPI.OnionArchitecture.Template</p>
+   <p> dotnet new -i PolymorphicWebAPI.OnionArchitecture.Template </p>
 
-![image](docs/img/dotnettemplate.png)
+![image](https://github.com/ifeanyinwodo/PolymorphicWebAPI.OnionArchitecture.Template/blob/main/docs/img/dotnettemplate.png)
 
 ### Step 2: Create The project from either CLI or  Visual Studio.
 
@@ -78,7 +78,7 @@ This whiteapp contains the following features.
 
 * [Create the project using Visual Studio]
 <p>Open Visual Studio, click to create new project and search for the template <i><b>polymorphic</b></i></p>
-![image](docs/img/visualstudio.png)
+![image](https://github.com/ifeanyinwodo/PolymorphicWebAPI.OnionArchitecture.Template/blob/main/docs/img/visualstudio.png)
 
 
 ### Step 2: Go through the created project's <i><b>appsettings.json</b></i> and make the necessary modification including:
@@ -86,7 +86,7 @@ This whiteapp contains the following features.
 * [specify the database type(postgre or mssqlserver)]
 * [specify the ORM]
 <br />
-[![image](docs/img/appsettings.png)](https://github.com/ifeanyinwodo/PolymorphicWebAPI.OnionArchitecture.Template/blob/main/PolymorphicWebAPI/PolymorphicWebAPI/PolymorphicWebAPI/appsettings.json)
+[![image](https://github.com/ifeanyinwodo/PolymorphicWebAPI.OnionArchitecture.Template/blob/main/docs/img/appsettings.png)](https://github.com/ifeanyinwodo/PolymorphicWebAPI.OnionArchitecture.Template/blob/main/PolymorphicWebAPI/PolymorphicWebAPI/PolymorphicWebAPI/appsettings.json)
 
 ### Note:
 <p>You can make other specification as you dim necessary, such as Azure radis cache connection, message queue/broker etc.</p>
