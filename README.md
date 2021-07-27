@@ -15,7 +15,7 @@
 
 <br />
   <p align="center">
-    This repository contains the PolymorphicWebAPI.OnionArchitecture.Template template  WhiteApp/QuickApp API solution template built on Onion Architecture with essential and enterprise features using .NET.
+    This repository contains the PolymorphicWebAPI.OnionArchitecture.Template  WhiteApp/QuickApp API solution template built on Onion Architecture with essential and enterprise features using .NET.
     <br />  
     <a href="https://www.nuget.org/packages/PolymorphicWebAPI.OnionArchitecture.Template">Download from nuget</a> 
   </p>
@@ -34,7 +34,7 @@ If you like or are using this project to learn or start your solution, please gi
 
 ## Features available in this project
 
-This is a default white application for ASP.NET Core API development.
+This is a default white/quick application for ASP.NET Core API development.
 
 This whiteapp contains the following features. 
 
