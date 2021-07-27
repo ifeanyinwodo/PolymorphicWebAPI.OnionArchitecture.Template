@@ -14,10 +14,66 @@
 # PolymorphicWebAPI.OnionArchitecture.Template
 
 <br />
-
-  
   <p align="center">
     This repository contains the PolymorphicWebAPI.OnionArchitecture.Template template  WhiteApp/QuickApp API solution template built on Onion Architecture with essential and enterprise features using .NET.
     <br />  
     <a href="https://www.nuget.org/packages/PolymorphicWebAPI.OnionArchitecture.Template">Download from nuget</a> 
   </p>
+
+## Give a Star! :star:
+If you like or are using this project to learn or start your solution, please give it a star. Thanks!
+
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
+* [Features available in this project](#Features-available-in-this-project)
+* [Getting Started](#getting-started)
+* [Project description](#project-description)
+* [Design patterns Used](#roadmap)
+* [Contributing](#contributing)
+* [Licence Used](#Licence-Used)
+* [Contact](#contact)
+* [Support This Project](#Support-This-Project)
+<!-- * [Acknowledgements](#acknowledgements) -->
+
+## Features available in this project
+
+This is default white application for ASP.NET Core API development
+
+This whiteapp contains following features, uncheck feature need to implement yet. 
+
+- [x] Application is implemented on Onion architecture
+- [x] RESTful API
+- [x] GraphQL API
+- [x] GRPC API
+- [x] Dapper
+- [x] Entityframework Core
+- [x] NHibernate
+- [x] Cache(Radis)
+- [x] NHibernate
+- [x] Message Broker
+- [x] Automapper
+- [x] Kafka
+- [x] RabbitMQ
+- [x] Testing(Unit and Integration) via XUnit
+- [x] Versioning
+- [x] Swagger UI
+- [x] CQRS Pattern 
+- [x] Repository Pattern
+- [x] Dependency Injection
+- [x] Repository Pattern
+- [x] AppMetric
+
+
+
+
+
+
+## Licence Used
+
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/ifeanyinwodo/PolymorphicWebAPI.OnionArchitecture.Template/blob/main/LICENSE)
+
+See the contents of the LICENSE file for details
+
+## Contact
+
+Having any issues or troubles getting started? Drop a mail to joshuasearch@gmail.com or [Raise a Bug or Feature Request](https://github.com/ifeanyinwodo/PolymorphicWebAPI.OnionArchitecture.Template/issues/new). 
