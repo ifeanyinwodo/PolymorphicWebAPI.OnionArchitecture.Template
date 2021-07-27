@@ -74,11 +74,11 @@ This whiteapp contains the following features.
 
 * [Create the project using CLI]
 <p>Execute  this to create a sample project<i><b>dotnet new -o  sample</b></i></p>
-![image](docs/img/createcli.png)
+![image](docs/img/createcli.PNG)
 
 * [Create the project using Visual Studio]
 <p>Open Visual Studio, click to create new project and search for the template <i><b>polymorphic</b></i></p>
-![image](https://github.com/ifeanyinwodo/PolymorphicWebAPI.OnionArchitecture.Template/blob/main/docs/img/visualstudio.png)
+![image](/docs/img/visualstudio.PNG)
 
 
 ### Step 2: Go through the created project's <i><b>appsettings.json</b></i> and make the necessary modification including:
@@ -86,7 +86,7 @@ This whiteapp contains the following features.
 * [specify the database type(postgre or mssqlserver)]
 * [specify the ORM]
 <br />
-[![image](https://github.com/ifeanyinwodo/PolymorphicWebAPI.OnionArchitecture.Template/blob/main/docs/img/appsettings.png)](https://github.com/ifeanyinwodo/PolymorphicWebAPI.OnionArchitecture.Template/blob/main/PolymorphicWebAPI/PolymorphicWebAPI/PolymorphicWebAPI/appsettings.json)
+[![image](/docs/img/appsettings.PNG)](https://github.com/ifeanyinwodo/PolymorphicWebAPI.OnionArchitecture.Template/blob/main/PolymorphicWebAPI/PolymorphicWebAPI/PolymorphicWebAPI/appsettings.json)
 
 ### Note:
 <p>You can make other specification as you dim necessary, such as Azure radis cache connection, message queue/broker etc.</p>
