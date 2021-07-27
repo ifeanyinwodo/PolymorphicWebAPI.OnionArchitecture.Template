@@ -73,19 +73,28 @@ This whiteapp contains the following features.
 ### Step 2: Create The project from either CLI or  Visual Studio.
 
 * Create the project using CLI
+
 <p>Execute  this to create a sample project<i><b>dotnet new -o  sample</b></i></p>
+
 ![image](/docs/img/createcli.PNG)
 
 * Create the project using Visual Studio
+
 <p>Open Visual Studio, click to create new project and search for the template <i><b>polymorphic</b></i></p>
+
 ![image](/docs/img/visualstudio.PNG)
 
 
 ### Step 2: Go through the created project's <i><b>appsettings.json</b></i> and make the necessary modification including:
+
 * Specify the connection string for either postgre or mssqlserver
+
 * specify the database type(postgre or mssqlserver)
-* specify the ORM]
+
+* specify the ORM
+
 <br />
+
 [![image](/docs/img/appsettings.PNG)](https://github.com/ifeanyinwodo/PolymorphicWebAPI.OnionArchitecture.Template/blob/main/PolymorphicWebAPI/PolymorphicWebAPI/PolymorphicWebAPI/appsettings.json)
 
 ### Note:
