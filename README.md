@@ -27,9 +27,6 @@ If you like or are using this project to learn or start your solution, please gi
 ## Table of Contents
 * [Features available in this project](#Features-available-in-this-project)
 * [Getting Started](#getting-started)
-* [Project description](#project-description)
-* [Design patterns Used](#roadmap)
-* [Contributing](#contributing)
 * [Licence Used](#Licence-Used)
 * [Contact](#contact)
 * [Support This Project](#Support-This-Project)
@@ -37,9 +34,9 @@ If you like or are using this project to learn or start your solution, please gi
 
 ## Features available in this project
 
-This is default white application for ASP.NET Core API development
+This is a default white application for ASP.NET Core API development.
 
-This whiteapp contains following features, uncheck feature need to implement yet. 
+This whiteapp contains the following features. 
 
 - [x] Application is implemented on Onion architecture
 - [x] RESTful API
@@ -48,6 +45,7 @@ This whiteapp contains following features, uncheck feature need to implement yet
 - [x] Dapper
 - [x] Entityframework Core
 - [x] NHibernate
+- [x] DbUp
 - [x] Cache(Radis)
 - [x] NHibernate
 - [x] Message Broker
@@ -61,18 +59,40 @@ This whiteapp contains following features, uncheck feature need to implement yet
 - [x] Repository Pattern
 - [x] Dependency Injection
 - [x] Repository Pattern
+- [x] RIP Pattern
 - [x] AppMetric
 
+## Getting Started
+
+### Step 1: Open Teminal/CLI/Command prompt and execute the line below.
+    <p>dotnet new -i PolymorphicWebAPI.OnionArchitecture.Template</p>
+![image](docs/img/dotnettemplate.png)
+
+### Step 2: Create The project from either CLI or  Visual Studio.
+
+* [Create the project using CLI]
+<p>Execute  this to create a sample project<i><b>dotnet new -o  sample</b></i></p>
+![image](docs/img/createcli.png)
+
+* [Create the project using Visual Studio]
+<p>Open Visual Studio, click to create new project and search for the template <i><b>polymorphic</b></i></p>
+![image](docs/img/visualstudio.png)
 
 
+### Step 2: Go through the created project's <i><b>appsettings.json</b></i> and make the necessary modification including:
+* [Specify the connection string for either postgre or mssqlserver]
+* [specify the database type(postgre or mssqlserver)]
+* [specify the ORM]
+[![image](docs/img/appsettings.png)](https://github.com/ifeanyinwodo/PolymorphicWebAPI.OnionArchitecture.Template/blob/main/PolymorphicWebAPI/PolymorphicWebAPI/PolymorphicWebAPI/appsettings.json)
 
-
+### Note;
+<p>You can make other specification as you dim necessary, such as Azure radis cache connection, message queue/broker etc.</p>
 
 ## Licence Used
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/ifeanyinwodo/PolymorphicWebAPI.OnionArchitecture.Template/blob/main/LICENSE)
 
-See the contents of the LICENSE file for details
+See the contents of the LICENSE file ccc
 
 ## Contact
 
