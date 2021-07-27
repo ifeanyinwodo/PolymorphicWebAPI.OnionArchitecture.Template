@@ -68,7 +68,7 @@ This whiteapp contains the following features.
 
    <p> dotnet new -i PolymorphicWebAPI.OnionArchitecture.Template </p>
 
-![image](PolymorphicWebAPI.OnionArchitecture.Template/docs/img/dotnettemplate.png)
+![image](/docs/img/dotnettemplate.PNG)
 
 ### Step 2: Create The project from either CLI or  Visual Studio.
 
