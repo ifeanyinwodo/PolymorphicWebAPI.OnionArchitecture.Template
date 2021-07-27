@@ -1,3 +1,5 @@
+![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
+![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)
 [![NuGet version (PolymorphicWebAPI.OnionArchitecture.Template)](https://img.shields.io/nuget/v/PolymorphicWebAPI.OnionArchitecture.Template)](https://www.nuget.org/packages/PolymorphicWebAPI.OnionArchitecture.Template/)
 ----
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ifeanyinwodo_PolymorphicWebAPI.onionArchitecture.Templates&metric=alert_status)](https://sonarcloud.io/dashboard?id=ifeanyinwodo_PolymorphicWebAPI.onionArchitecture.Templates)
