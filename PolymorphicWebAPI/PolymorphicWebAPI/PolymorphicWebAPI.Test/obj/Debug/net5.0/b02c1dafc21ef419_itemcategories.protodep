@@ -1,0 +1,3 @@
+obj\Debug\net5.0/Itemcategories.cs \
+obj\Debug\net5.0/ItemcategoriesGrpc.cs: C:/Users/HP/.nuget/packages/grpc.tools/2.38.1/build/native/include/google/protobuf/empty.proto\
+ ../PolymorphicWebAPI.Service/Features/GRPC/itemcategories.proto

@@ -1,0 +1,33 @@
+﻿syntax="proto3";
+option csharp_namespace="PolymorphicWebAPI.Service.Features.GRPC";
+package itemcategories;
+
+import "google/protobuf/empty.proto";
+
+
+service ItemCategories {
+  
+  rpc Get(google.protobuf.Empty) returns (stream GetAllCategories);
+  rpc GetCategory(GetCategoryRequest) returns (stream GetAllCategories);
+  rpc Post(Category) returns (Category);
+  rpc Update(Category) returns (Category);
+  rpc Remove(GetCategoryRequest) returns (google.protobuf.Empty);
+
+}
+
+
+
+message GetCategoryRequest {
+  string Id =1;
+}
+
+message GetAllCategories {
+  repeated Category itemCategories =1;
+}
+
+message Category {
+  string Id =1;
+  string CategoryName=2;
+  string Description=3;
+  int32 Quantity=4;
+}

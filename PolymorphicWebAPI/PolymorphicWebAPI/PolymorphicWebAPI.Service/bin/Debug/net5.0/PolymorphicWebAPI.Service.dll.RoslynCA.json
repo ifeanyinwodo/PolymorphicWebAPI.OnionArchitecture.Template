@@ -1,0 +1,183 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "3.9.0.0",
+        "fileVersion": "3.9.0-6.21160.10 (59eedc33)",
+        "semanticVersion": "3.9.0",
+        "language": "en-GB"
+      },
+      "results": [
+        {
+          "ruleId": "S3925",
+          "level": "warning",
+          "message": "Update this implementation of 'ISerializable' to conform to the recommended serialization pattern.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/T1/github/PolymorphicWebAPI.onionArchitecture.Templates/PolymorphicWebAPI/PolymorphicWebAPI/PolymorphicWebAPI.Service/Exceptions/ApiException.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 18,
+                  "endLine": 8,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/T1/github/PolymorphicWebAPI.onionArchitecture.Templates/PolymorphicWebAPI/PolymorphicWebAPI/PolymorphicWebAPI.Service/Exceptions/ApiException.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 12,
+                  "endLine": 8,
+                  "endColumn": 17
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "Add a 'protected' constructor 'ApiException(SerializationInfo, StreamingContext)'."
+            }
+          }
+        },
+        {
+          "ruleId": "S3925",
+          "level": "warning",
+          "message": "Update this implementation of 'ISerializable' to conform to the recommended serialization pattern.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/T1/github/PolymorphicWebAPI.onionArchitecture.Templates/PolymorphicWebAPI/PolymorphicWebAPI/PolymorphicWebAPI.Service/Exceptions/DeleteFailureException.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 18,
+                  "endLine": 7,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/T1/github/PolymorphicWebAPI.onionArchitecture.Templates/PolymorphicWebAPI/PolymorphicWebAPI/PolymorphicWebAPI.Service/Exceptions/DeleteFailureException.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 12,
+                  "endLine": 7,
+                  "endColumn": 17
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "Add a 'protected' constructor 'DeleteFailureException(SerializationInfo, StreamingContext)'."
+            }
+          }
+        },
+        {
+          "ruleId": "S3925",
+          "level": "warning",
+          "message": "Update this implementation of 'ISerializable' to conform to the recommended serialization pattern.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/T1/github/PolymorphicWebAPI.onionArchitecture.Templates/PolymorphicWebAPI/PolymorphicWebAPI/PolymorphicWebAPI.Service/Exceptions/NotFoundException.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 18,
+                  "endLine": 7,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/T1/github/PolymorphicWebAPI.onionArchitecture.Templates/PolymorphicWebAPI/PolymorphicWebAPI/PolymorphicWebAPI.Service/Exceptions/NotFoundException.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 12,
+                  "endLine": 7,
+                  "endColumn": 17
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "Add a 'protected' constructor 'NotFoundException(SerializationInfo, StreamingContext)'."
+            }
+          }
+        },
+        {
+          "ruleId": "S3925",
+          "level": "warning",
+          "message": "Update this implementation of 'ISerializable' to conform to the recommended serialization pattern.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/T1/github/PolymorphicWebAPI.onionArchitecture.Templates/PolymorphicWebAPI/PolymorphicWebAPI/PolymorphicWebAPI.Service/Exceptions/ValidationException.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 18,
+                  "endLine": 11,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/T1/github/PolymorphicWebAPI.onionArchitecture.Templates/PolymorphicWebAPI/PolymorphicWebAPI/PolymorphicWebAPI.Service/Exceptions/ValidationException.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 12,
+                  "endLine": 11,
+                  "endColumn": 17
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "Add a 'protected' constructor 'ValidationException(SerializationInfo, StreamingContext)'."
+            }
+          }
+        }
+      ],
+      "rules": {
+        "S3925": {
+          "id": "S3925",
+          "shortDescription": "\"ISerializable\" should be implemented correctly",
+          "fullDescription": "The ISerializable interface is the mechanism to control the type serialization process. If not implemented correctly this could result in an invalid serialization and hard to detect bugs.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3925",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

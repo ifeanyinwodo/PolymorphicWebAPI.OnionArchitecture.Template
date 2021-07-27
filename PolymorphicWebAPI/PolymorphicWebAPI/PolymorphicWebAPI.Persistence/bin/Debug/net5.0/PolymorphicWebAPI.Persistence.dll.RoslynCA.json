@@ -1,0 +1,109 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "3.9.0.0",
+        "fileVersion": "3.9.0-6.21160.10 (59eedc33)",
+        "semanticVersion": "3.9.0",
+        "language": "en-GB"
+      },
+      "results": [
+        {
+          "ruleId": "S3925",
+          "level": "warning",
+          "message": "Update this implementation of 'ISerializable' to conform to the recommended serialization pattern.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/T1/github/PolymorphicWebAPI.onionArchitecture.Templates/PolymorphicWebAPI/PolymorphicWebAPI/PolymorphicWebAPI.Persistence/Exceptions/AggregateRootNotProvidedException.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 33,
+                  "endLine": 16,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/T1/github/PolymorphicWebAPI.onionArchitecture.Templates/PolymorphicWebAPI/PolymorphicWebAPI/PolymorphicWebAPI.Persistence/Exceptions/AggregateRootNotProvidedException.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 27,
+                  "endLine": 16,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "Add a 'protected' constructor 'IdException(SerializationInfo, StreamingContext)'."
+            }
+          }
+        },
+        {
+          "ruleId": "S3925",
+          "level": "warning",
+          "message": "Update this implementation of 'ISerializable' to conform to the recommended serialization pattern.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/T1/github/PolymorphicWebAPI.onionArchitecture.Templates/PolymorphicWebAPI/PolymorphicWebAPI/PolymorphicWebAPI.Persistence/Exceptions/AggregateRootNotProvidedException.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 32,
+                  "endLine": 7,
+                  "endColumn": 65
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/T1/github/PolymorphicWebAPI.onionArchitecture.Templates/PolymorphicWebAPI/PolymorphicWebAPI/PolymorphicWebAPI.Persistence/Exceptions/AggregateRootNotProvidedException.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 26,
+                  "endLine": 7,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "Add a 'protected' constructor 'AggregateRootNotProvidedException(SerializationInfo, StreamingContext)'."
+            }
+          }
+        }
+      ],
+      "rules": {
+        "S3925": {
+          "id": "S3925",
+          "shortDescription": "\"ISerializable\" should be implemented correctly",
+          "fullDescription": "The ISerializable interface is the mechanism to control the type serialization process. If not implemented correctly this could result in an invalid serialization and hard to detect bugs.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3925",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
