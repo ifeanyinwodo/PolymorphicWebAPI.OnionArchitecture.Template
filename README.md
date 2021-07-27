@@ -76,7 +76,7 @@ This whiteapp contains the following features.
 
 <p> Execute this to create a sample project <i> <b> dotnet new -o  sample </b> </i> </p>
 
-![image](/docs/img/createcli.PNG)
+![image](/docs/img/creatcli.PNG)
 
 * Create the project using Visual Studio
 
