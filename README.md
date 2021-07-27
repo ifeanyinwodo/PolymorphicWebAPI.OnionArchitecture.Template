@@ -74,7 +74,7 @@ This whiteapp contains the following features.
 
 * Create the project using CLI
 
-<p>Execute  this to create a sample project<i><b>dotnet new -o  sample</b></i></p>
+<p> Execute this to create a sample project <i> <b> dotnet new -o  sample </b> </i> </p>
 
 ![image](/docs/img/createcli.PNG)
 
