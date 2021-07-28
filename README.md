@@ -61,6 +61,8 @@ This whiteapp contains the following features.
 - [x] Repository Pattern
 - [x] RIP Pattern
 - [x] AppMetric
+- [x] Event Sourcing
+- [x] DDD
 
 ## Getting Started
 

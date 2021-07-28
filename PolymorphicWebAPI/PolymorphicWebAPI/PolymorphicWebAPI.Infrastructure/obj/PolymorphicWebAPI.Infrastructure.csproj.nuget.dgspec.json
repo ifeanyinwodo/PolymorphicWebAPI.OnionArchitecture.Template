@@ -30,7 +30,8 @@
           "D:\\microservice\\Kafka-Message-Broker-implementation-on-Asp.net-Core\\ItemModel-Nugget\\ItemModel-Nugget\\bin\\Debug": {},
           "D:\\microservice\\Rabbitmq-Message-Broker-implementation-on-Asp.net-Core\\ItemModel-Nugget\\ItemModel-Nugget\\bin\\Debug": {},
           "D:\\microservice\\SAGA\\localsystem": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/ifeanyinwodo/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -234,7 +235,8 @@
           "D:\\microservice\\Kafka-Message-Broker-implementation-on-Asp.net-Core\\ItemModel-Nugget\\ItemModel-Nugget\\bin\\Debug": {},
           "D:\\microservice\\Rabbitmq-Message-Broker-implementation-on-Asp.net-Core\\ItemModel-Nugget\\ItemModel-Nugget\\bin\\Debug": {},
           "D:\\microservice\\SAGA\\localsystem": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/ifeanyinwodo/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -492,7 +494,8 @@
           "D:\\microservice\\Kafka-Message-Broker-implementation-on-Asp.net-Core\\ItemModel-Nugget\\ItemModel-Nugget\\bin\\Debug": {},
           "D:\\microservice\\Rabbitmq-Message-Broker-implementation-on-Asp.net-Core\\ItemModel-Nugget\\ItemModel-Nugget\\bin\\Debug": {},
           "D:\\microservice\\SAGA\\localsystem": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/ifeanyinwodo/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -722,7 +725,8 @@
           "D:\\microservice\\Kafka-Message-Broker-implementation-on-Asp.net-Core\\ItemModel-Nugget\\ItemModel-Nugget\\bin\\Debug": {},
           "D:\\microservice\\Rabbitmq-Message-Broker-implementation-on-Asp.net-Core\\ItemModel-Nugget\\ItemModel-Nugget\\bin\\Debug": {},
           "D:\\microservice\\SAGA\\localsystem": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/ifeanyinwodo/index.json": {}
         },
         "frameworks": {
           "net5.0": {
