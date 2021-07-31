@@ -47,7 +47,6 @@ This whiteapp contains the following features.
 - [x] NHibernate
 - [x] DbUp
 - [x] Cache(Radis)
-- [x] NHibernate
 - [x] Message Broker
 - [x] Automapper
 - [x] Kafka
@@ -58,8 +57,7 @@ This whiteapp contains the following features.
 - [x] CQRS Pattern 
 - [x] Repository Pattern
 - [x] Dependency Injection
-- [x] Repository Pattern
-- [x] RIP Pattern
+- [x] RIP (Replace IF with Polymorphism) Pattern
 - [x] AppMetric
 - [x] Event Sourcing
 - [x] DDD
