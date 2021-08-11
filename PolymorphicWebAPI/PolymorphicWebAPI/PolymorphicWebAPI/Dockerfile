@@ -18,7 +18,7 @@ COPY ["PolymorphicWebAPI/PolymorphicWebAPI/PolymorphicWebAPI.Test/PolymorphicWeb
 RUN dotnet restore "PolymorphicWebAPI/PolymorphicWebAPI.csproj"
 COPY . .
 WORKDIR "/src/PolymorphicWebAPI"
-RUN dotnet build "sPolymorphicWebAPI/PolymorphicWebAPI/PolymorphicWebAPI/PolymorphicWebAPI.csproj" -c Release -o /app/build
+RUN dotnet build "PolymorphicWebAPI/PolymorphicWebAPI/PolymorphicWebAPI/PolymorphicWebAPI.csproj" -c Release -o /app/build
 
 FROM build AS publish
 RUN dotnet publish "PolymorphicWebAPI/PolymorphicWebAPI/PolymorphicWebAPI/PolymorphicWebAPI.csproj" -c Release -o /app/publish
