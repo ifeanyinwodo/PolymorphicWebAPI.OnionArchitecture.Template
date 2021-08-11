@@ -14,7 +14,7 @@ COPY ["PolymorphicWebAPI/PolymorphicWebAPI/PolymorphicWebAPI.Infrastructure/Poly
 COPY ["PolymorphicWebAPI/PolymorphicWebAPI/PolymorphicWebAPI.Service/PolymorphicWebAPI.Service.csproj", "PolymorphicWebAPI.Service/"]
 COPY ["PolymorphicWebAPI/PolymorphicWebAPI/PolymorphicWebAPI.Persistence/PolymorphicWebAPI.Persistence.csproj", "PolymorphicWebAPI.Persistence/"]
 COPY ["PolymorphicWebAPI/PolymorphicWebAPI/PolymorphicWebAPI.Domain/PolymorphicWebAPI.Domain.csproj", "PolymorphicWebAPI.Domain/"]
-COPY ["PolymorphicWebAPI/PolymorphicWebAPI/PolymorphicWebAPI.Domain/PolymorphicWebAPI.Test.csproj", "PolymorphicWebAPI.Test/"]
+COPY ["PolymorphicWebAPI/PolymorphicWebAPI/PolymorphicWebAPI.Test/PolymorphicWebAPI.Test.csproj", "PolymorphicWebAPI.Test/"]
 RUN dotnet restore "PolymorphicWebAPI/PolymorphicWebAPI.csproj"
 COPY . .
 WORKDIR "/src/PolymorphicWebAPI"
