@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "lqCEWUZYQ9u44NR+94kVoDTJJpS6J6LBdUJNV3ZiAMsEfmT2v/hjCBt2qLdXaI1gGNi1IpdYr7mX1xLpQ7tIjQ==",
+  "dgSpecHash": "zwME1//NyFxK1vl2oWMycPgDZJ/bUCGacZ+dJuBmY5SopWgMOy3gK1RUtXv03hLrFlFrgz2sZyiOzW6ppun85g==",
   "success": true,
   "projectFilePath": "C:\\T1\\github\\PolymorphicWebAPI.OnionArchitecture.Template\\PolymorphicWebAPI\\PolymorphicWebAPI\\PolymorphicWebAPI.Domain\\PolymorphicWebAPI.Domain.csproj",
   "expectedPackageFiles": [

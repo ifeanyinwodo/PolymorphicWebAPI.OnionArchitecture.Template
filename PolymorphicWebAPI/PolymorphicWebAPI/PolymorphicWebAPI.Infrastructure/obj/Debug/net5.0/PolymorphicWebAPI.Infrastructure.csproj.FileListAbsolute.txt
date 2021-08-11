@@ -90,3 +90,26 @@ C:\T1\templates\templates\templates\PolymorphicWebAPI.Infrastructure\obj\Debug\n
 C:\T1\templates\templates\templates\PolymorphicWebAPI.Infrastructure\obj\Debug\net5.0\ref\PolymorphicWebAPI.Infrastructure.dll
 C:\T1\templates\templates\templates\PolymorphicWebAPI.Infrastructure\obj\Debug\net5.0\PolymorphicWebAPI.Infrastructure.pdb
 C:\T1\templates\templates\templates\PolymorphicWebAPI.Infrastructure\obj\Debug\net5.0\PolymorphicWebAPI.Infrastructure.genruntimeconfig.cache
+C:\T1\github\PolymorphicWebAPI.OnionArchitecture.Template\PolymorphicWebAPI\PolymorphicWebAPI\PolymorphicWebAPI.Infrastructure\bin\Debug\net5.0\DBManagement\Scripts\003 - CreateEventStore.sql
+C:\T1\github\PolymorphicWebAPI.OnionArchitecture.Template\PolymorphicWebAPI\PolymorphicWebAPI\PolymorphicWebAPI.Infrastructure\bin\Debug\net5.0\PolymorphicWebAPI.Infrastructure.deps.json
+C:\T1\github\PolymorphicWebAPI.OnionArchitecture.Template\PolymorphicWebAPI\PolymorphicWebAPI\PolymorphicWebAPI.Infrastructure\bin\Debug\net5.0\PolymorphicWebAPI.Infrastructure.runtimeconfig.json
+C:\T1\github\PolymorphicWebAPI.OnionArchitecture.Template\PolymorphicWebAPI\PolymorphicWebAPI\PolymorphicWebAPI.Infrastructure\bin\Debug\net5.0\PolymorphicWebAPI.Infrastructure.runtimeconfig.dev.json
+C:\T1\github\PolymorphicWebAPI.OnionArchitecture.Template\PolymorphicWebAPI\PolymorphicWebAPI\PolymorphicWebAPI.Infrastructure\bin\Debug\net5.0\PolymorphicWebAPI.Infrastructure.dll
+C:\T1\github\PolymorphicWebAPI.OnionArchitecture.Template\PolymorphicWebAPI\PolymorphicWebAPI\PolymorphicWebAPI.Infrastructure\bin\Debug\net5.0\ref\PolymorphicWebAPI.Infrastructure.dll
+C:\T1\github\PolymorphicWebAPI.OnionArchitecture.Template\PolymorphicWebAPI\PolymorphicWebAPI\PolymorphicWebAPI.Infrastructure\bin\Debug\net5.0\PolymorphicWebAPI.Infrastructure.pdb
+C:\T1\github\PolymorphicWebAPI.OnionArchitecture.Template\PolymorphicWebAPI\PolymorphicWebAPI\PolymorphicWebAPI.Infrastructure\bin\Debug\net5.0\PolymorphicWebAPI.Domain.dll
+C:\T1\github\PolymorphicWebAPI.OnionArchitecture.Template\PolymorphicWebAPI\PolymorphicWebAPI\PolymorphicWebAPI.Infrastructure\bin\Debug\net5.0\PolymorphicWebAPI.Persistence.dll
+C:\T1\github\PolymorphicWebAPI.OnionArchitecture.Template\PolymorphicWebAPI\PolymorphicWebAPI\PolymorphicWebAPI.Infrastructure\bin\Debug\net5.0\PolymorphicWebAPI.Service.dll
+C:\T1\github\PolymorphicWebAPI.OnionArchitecture.Template\PolymorphicWebAPI\PolymorphicWebAPI\PolymorphicWebAPI.Infrastructure\bin\Debug\net5.0\PolymorphicWebAPI.Service.pdb
+C:\T1\github\PolymorphicWebAPI.OnionArchitecture.Template\PolymorphicWebAPI\PolymorphicWebAPI\PolymorphicWebAPI.Infrastructure\bin\Debug\net5.0\PolymorphicWebAPI.Domain.pdb
+C:\T1\github\PolymorphicWebAPI.OnionArchitecture.Template\PolymorphicWebAPI\PolymorphicWebAPI\PolymorphicWebAPI.Infrastructure\bin\Debug\net5.0\PolymorphicWebAPI.Persistence.pdb
+C:\T1\github\PolymorphicWebAPI.OnionArchitecture.Template\PolymorphicWebAPI\PolymorphicWebAPI\PolymorphicWebAPI.Infrastructure\obj\Debug\net5.0\PolymorphicWebAPI.Infrastructure.csprojAssemblyReference.cache
+C:\T1\github\PolymorphicWebAPI.OnionArchitecture.Template\PolymorphicWebAPI\PolymorphicWebAPI\PolymorphicWebAPI.Infrastructure\obj\Debug\net5.0\PolymorphicWebAPI.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\T1\github\PolymorphicWebAPI.OnionArchitecture.Template\PolymorphicWebAPI\PolymorphicWebAPI\PolymorphicWebAPI.Infrastructure\obj\Debug\net5.0\PolymorphicWebAPI.Infrastructure.AssemblyInfoInputs.cache
+C:\T1\github\PolymorphicWebAPI.OnionArchitecture.Template\PolymorphicWebAPI\PolymorphicWebAPI\PolymorphicWebAPI.Infrastructure\obj\Debug\net5.0\PolymorphicWebAPI.Infrastructure.AssemblyInfo.cs
+C:\T1\github\PolymorphicWebAPI.OnionArchitecture.Template\PolymorphicWebAPI\PolymorphicWebAPI\PolymorphicWebAPI.Infrastructure\obj\Debug\net5.0\PolymorphicWebAPI.Infrastructure.csproj.CoreCompileInputs.cache
+C:\T1\github\PolymorphicWebAPI.OnionArchitecture.Template\PolymorphicWebAPI\PolymorphicWebAPI\PolymorphicWebAPI.Infrastructure\obj\Debug\net5.0\PolymorphicWebAPI.Infrastructure.csproj.CopyComplete
+C:\T1\github\PolymorphicWebAPI.OnionArchitecture.Template\PolymorphicWebAPI\PolymorphicWebAPI\PolymorphicWebAPI.Infrastructure\obj\Debug\net5.0\PolymorphicWebAPI.Infrastructure.dll
+C:\T1\github\PolymorphicWebAPI.OnionArchitecture.Template\PolymorphicWebAPI\PolymorphicWebAPI\PolymorphicWebAPI.Infrastructure\obj\Debug\net5.0\ref\PolymorphicWebAPI.Infrastructure.dll
+C:\T1\github\PolymorphicWebAPI.OnionArchitecture.Template\PolymorphicWebAPI\PolymorphicWebAPI\PolymorphicWebAPI.Infrastructure\obj\Debug\net5.0\PolymorphicWebAPI.Infrastructure.pdb
+C:\T1\github\PolymorphicWebAPI.OnionArchitecture.Template\PolymorphicWebAPI\PolymorphicWebAPI\PolymorphicWebAPI.Infrastructure\obj\Debug\net5.0\PolymorphicWebAPI.Infrastructure.genruntimeconfig.cache
