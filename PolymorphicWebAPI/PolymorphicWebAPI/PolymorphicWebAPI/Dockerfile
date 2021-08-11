@@ -21,7 +21,7 @@ WORKDIR "/src/PolymorphicWebAPI"
 RUN dotnet build  -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "PolymorphicWebAPI.csproj" -c Release -o /app/publish
+RUN dotnet publish  -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app
