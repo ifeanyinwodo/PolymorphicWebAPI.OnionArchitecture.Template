@@ -9,12 +9,12 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
 WORKDIR /src
-COPY ["PolymorphicWebAPI/PolymorphicWebAPI/PolymorphicWebAPI/PolymorphicWebAPI.csproj", "PolymorphicWebAPI/"]
-COPY ["PolymorphicWebAPI/PolymorphicWebAPI/PolymorphicWebAPI.Infrastructure/PolymorphicWebAPI.Infrastructure.csproj", "PolymorphicWebAPI.Infrastructure/"]
-COPY ["PolymorphicWebAPI/PolymorphicWebAPI/PolymorphicWebAPI.Service/PolymorphicWebAPI.Service.csproj", "PolymorphicWebAPI.Service/"]
-COPY ["PolymorphicWebAPI/PolymorphicWebAPI/PolymorphicWebAPI.Persistence/PolymorphicWebAPI.Persistence.csproj", "PolymorphicWebAPI.Persistence/"]
-COPY ["PolymorphicWebAPI/PolymorphicWebAPI/PolymorphicWebAPI.Domain/PolymorphicWebAPI.Domain.csproj", "PolymorphicWebAPI.Domain/"]
-COPY ["PolymorphicWebAPI/PolymorphicWebAPI/PolymorphicWebAPI.Test/PolymorphicWebAPI.Test.csproj", "PolymorphicWebAPI.Test/"]
+COPY ["PolymorphicWebAPI/PolymorphicWebAPI.csproj", "PolymorphicWebAPI/"]
+COPY ["PolymorphicWebAPI.Infrastructure/PolymorphicWebAPI.Infrastructure.csproj", "PolymorphicWebAPI.Infrastructure/"]
+COPY ["PolymorphicWebAPI.Service/PolymorphicWebAPI.Service.csproj", "PolymorphicWebAPI.Service/"]
+COPY ["PolymorphicWebAPI.Persistence/PolymorphicWebAPI.Persistence.csproj", "PolymorphicWebAPI.Persistence/"]
+COPY ["PolymorphicWebAPI.Domain/PolymorphicWebAPI.Domain.csproj", "PolymorphicWebAPI.Domain/"]
+COPY ["PolymorphicWebAPI.Test/PolymorphicWebAPI.Test.csproj", "PolymorphicWebAPI.Test/"]
 RUN dotnet restore "PolymorphicWebAPI/PolymorphicWebAPI.csproj"
 COPY . .
 WORKDIR "/src/PolymorphicWebAPI"
