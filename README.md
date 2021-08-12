@@ -1,6 +1,5 @@
 [![NuGet version (PolymorphicWebAPI.OnionArchitecture.Template)](https://img.shields.io/nuget/v/PolymorphicWebAPI.OnionArchitecture.Template)](https://www.nuget.org/packages/PolymorphicWebAPI.OnionArchitecture.Template/)
 ----
-[![Build Status](https://ifeanyinwodo.visualstudio.com/PolymorphicWebAPI.OnionArchitecture.Template/_apis/build/status/PolymorphicWebAPI.OnionArchitecture.Template-Docker%20container-CI?branchName=main)](https://ifeanyinwodo.visualstudio.com/PolymorphicWebAPI.OnionArchitecture.Template/_build/latest?definitionId=6&branchName=main)
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ifeanyinwodo_PolymorphicWebAPI.onionArchitecture.Templates&metric=alert_status)](https://sonarcloud.io/dashboard?id=ifeanyinwodo_PolymorphicWebAPI.onionArchitecture.Templates)
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=ifeanyinwodo_PolymorphicWebAPI.onionArchitecture.Templates&metric=bugs)](https://sonarcloud.io/dashboard?id=ifeanyinwodo_PolymorphicWebAPI.onionArchitecture.Templates)
@@ -87,7 +86,7 @@ This whiteapp contains the following features.
 ![image](/docs/img/visualstudio.PNG)
 
 
-### Step 2: Go through the created project's <i><b>appsettings.json</b></i> and make the necessary modification including:
+### Step 3: Go through the created project's <i><b>appsettings.json</b></i> and make the necessary modification including:
 
 * Specify the connection string for either postgre or mssqlserver
 
